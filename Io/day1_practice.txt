@@ -1,0 +1,39 @@
+Find:
+*一些Io的示例问题
+    stackoverflow中带iolanguagetag的东西 http://stackoverflow.com/questions/tagged/iolanguage
+
+*一个可解答问题的Io社区
+    stackoverflow
+    官网推荐
+        http://tech.groups.yahoo.com/group/iolanguage/
+        irc://irc.freenode.net/io
+        https://twitter.com/iolanguage
+        https://github.com/stevedekorte/io/issues?state=open
+
+*带有Io惯用法的风格指南 
+    https://en.wikibooks.org/wiki/Io_Programming/Io_Style_Guide
+
+
+Answer:
+
+
+1. Io是强类型还是弱类型? ==> 强类型
+
+强/弱/动/静类型的说明: http://bbs.csdn.net/topics/30340831
+		     http://blog.csdn.net/wh62592855/article/details/7181898
+
+2. only "nil" & "false" values are false, other values are true
+* 0		   ==> true
+* 空字符串(i.e. "") ==> true
+* nil		   ==> false 
+
+
+3. 通过 slotNames 获取原型支持的slot
+
+4. =      ==> update the value of slot
+   :=	  ==> add the slot to protot / update the value of slot
+   ::= 	  ==> same as :=
+
+
+Done:
+The practices have been done on the Io compiler
